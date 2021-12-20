@@ -4,36 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="contact.css" />
     <title>form</title>
   </head>
   <body>
-    <form action="method" class="flex">
+    <button class="btn-example">example</button>
+    <form class="flex">
       <div>
         <label for="name">Name: </label>
-        <input type="text" name="name" placeholder="Enter your name" />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
       </div>
       <div>
         <label for="email">Email:</label>
-        <input type="email" name="email" placeholder="Enter your email" />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
       </div>
 
       <div>
         <label for="username">username:</label>
-        <input type="text" name="username" placeholder="Enter your username" />
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter your username"
+        />
       </div>
 
       <div>
         <label for="age">Age:</label>
-        <input type="number" name="age" placeholder="Enter your age" />
+        <input
+          type="number"
+          name="age"
+          value="0"
+          id="age"
+          placeholder="Enter your age"
+        />
       </div>
 
       <div>
         <label for="Bio">Bio:</label>
-        <textarea name="Bio" id="" cols="30" rows="1"></textarea>
+        <textarea name="Bio" id="bio" cols="30" rows="1"></textarea>
       </div>
-      <button class="btn">sumbit</button>
+      <button class="btn" type="submit">sumbit</button>
     </form>
-    <script src="./contact.js"></script>
+    <script src="contact.js"></script>
   </body>
 </html>
